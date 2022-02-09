@@ -149,7 +149,7 @@ console.log(juegos);
 let juegosBorrados = juegos.splice(pos, 2)
 ```
 
-El .slice recibe 2 parametros , el primero la posicion desde que se hara el borrado y el segundo la cantidad de espacios en el array por borrar y retorna por defecto los elementos borrados
+El `.slice` recibe 2 parametros , el primero la posicion desde que se hara el borrado y el segundo la cantidad de espacios en el array por borrar y retorna por defecto los elementos borrados
 <br> <br>
 Para buscar la posicion de un elemento en el arreglo seria: <br>
 `let metroIndex = juegos.indexOf("Metroid");` <br>
